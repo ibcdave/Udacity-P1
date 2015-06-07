@@ -1,89 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Dave's Portfolio</title>
 	<meta name="viewport" content="width+device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="file:////Users/davidbernard/GitHub/Udacity-P1/bootstrap/css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet'>
     <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet' type='text/css'>
-	<title>Dave's Portfolio</title>
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div class="grid">
-		<div class="row">
-			<div class="col-6">
-				<a href="http://udacity.com"></a>
-				<img src="./images/udacity_logo.jpg" class="padleft padtop" alt="Udacity Logo">
-			</div>
-      		<div class="col-6">
-        		<h1 class="right">David Bernard</h1>
-        		<p class="right">Front-End Artist</p>
-      		</div>
-		</div>
-		
-		<div><hr></div>
-		
-		<div class="row">
-			<div class="col-12">
-				<picture>
-					<source srcset="images/san_fran_skyline_400x150.jpg" media="(max-width: 450px)">
-      				<source srcset="images/san_fran_skyline_650x274.jpg" media="(max-width: 700px)">
-      				<source srcset="images/san_fran_skyline_900x400.jpg">
-      				<img src="images/san_fran_skyline_900x400.jpg" alt="San Francisco Skyline">
-				</picture>
-			</div>
-		</div>
-		
-		<h2>Featured Work</h2>
-
-		<div><hr></div>
-		
-		<div class="row">
-			<div class="container">
-				<div class="col-4a">
-					<picture>
-						<source srcset="images/hello_world_221x216.jpg" media="(max-width: 450px)">
-						<source srcset="images/hello_world_307x300.jpg" media="(max-width: 799px)">
-						<img src="images/hello_world_205x200.jpg" alt="Hello World">
-					</picture>
-					<h3>Hello World</h3>
-					<p class="tinyfont">
-						<a href="https://github.com/ibcdave/intro-project-html5-hello-world">github.com/ibcdave</a>
-					</p>
+		<header>
+			<div class="row">
+				<div class="col-6">
+					<a href="http://udacity.com"></a>
+					<img class="padleft padtop" src="./images/udacity_logo.jpg" alt="Udacity Logo">
 				</div>
-				<div class="col-4b">
+	      		<div class="col-6">
+	        		<h1 class="right">David Bernard</h1>
+	        		<p class="right">Front-End Artist</p>
+	      		</div>
+			</div>
+		</header>
+		<section>
+			
+			<div class="hr"></div>
+			
+			<div class="row">
+				<div class="col-12">
 					<picture>
-						<source srcset="images/david_tpt_300.jpg" media="(max-width: 450px)">
-						<source srcset="images/david_tpt_555.jpg" media="(max-width: 799px)">
-						<img src="images/david_tpt_250x200.jpg" alt="Dave Playing Trumpet">
+						<source srcset="images/san_fran_skyline_400x150.jpg" media="(max-width: 450px)">
+	      				<source srcset="images/san_fran_skyline_650x274.jpg" media="(max-width: 700px)">
+	      				<source srcset="images/san_fran_skyline_900x400.jpg">
+	      				<img src="images/san_fran_skyline_900x400.jpg" alt="San Francisco Skyline">
 					</picture>
-					<h3>LinkedIn Profile</h3>
-					<p class="tinyfont">
-						<a href="https://www.linkedin.com/pub/david-bernard/21/871/874">linkedin.com/pub/david-bernard</a>
-					</p>
-				</div>
-				<div class="col-4c">
-					<picture>
-						<source srcset="images/question_216x216.jpg" media="(max-width: 450px)">
-						<source srcset="images/question_300x300.jpg" media="(max-width: 799px)">
-						<img src="images/question_250x200.jpg" alt="What's Next?">
-					</picture>
-					<h3>Coming Soon!</h3>
-					<p class="tinyfont">
-						<a href="https://github.com/ibcdave">github.com/ibcdave</a>
-					</p>
 				</div>
 			</div>
- 		</div>
+			
+			<div class="row">
+				<div class="col-12">
+					<h2>Featured Work</h2>
+				</div>
+			</div>
+			
 
- 		<div><hr></div>
+			<div class="hr"></div>
+			
+			<div class="row">
+				<div class="container">
+					<div class="col-4a">
+						<picture>
+							<source srcset="images/hello_world_221x216.jpg" media="(max-width: 450px)">
+							<source srcset="images/hello_world_307x300.jpg" media="(max-width: 799px)">
+							<img src="images/hello_world_205x200.jpg" alt="Hello World">
+						</picture>
+						<h3>Hello World</h3>
+						<p class="tinyfont">
+							<a href="https://github.com/ibcdave/intro-project-html5-hello-world">github.com/ibcdave</a>
+						</p>
+					</div>
+					<div class="col-4b">
+						<picture>
+							<source srcset="images/david_tpt_300.jpg" media="(max-width: 450px)">
+							<source srcset="images/david_tpt_555.jpg" media="(max-width: 799px)">
+							<img src="images/david_tpt_250x200.jpg" alt="Dave Playing Trumpet">
+						</picture>
+						<h3>LinkedIn Profile</h3>
+						<p class="tinyfont">
+							<a href="https://www.linkedin.com/pub/david-bernard/21/871/874">linkedin.com/pub/david-bernard</a>
+						</p>
+					</div>
+					<div class="col-4c">
+						<picture>
+							<source srcset="images/question_216x216.jpg" media="(max-width: 450px)">
+							<source srcset="images/question_300x300.jpg" media="(max-width: 799px)">
+							<img src="images/question_250x200.jpg" alt="What's Next?">
+						</picture>
+						<h3>Coming Soon!</h3>
+						<p class="tinyfont">
+							<a href="https://github.com/ibcdave">github.com/ibcdave</a>
+						</p>
+					</div>
+				</div>
+	 		</div>
 
- 		<div class="row">			
- 			<h4><a href="https://twitter.com/ibcdave"><span class="zocial-twitter"></span></a></h4>
- 			<h4><a href="https://www.linkedin.com/pub/david-bernard/21/871/874"><span class="zocial-linkedin"></span></a></h4>
-			<h4><a href="https://plus.google.com/u/0/+DavidBernard8/about/p/pub"><span class="zocial-googleplus"></span></a></h4>
-  		</div>
+	 		<div class="hr"></div>
+			
+		</section>
+ 		<footer>
+	 		<div class="row">
+	 			<h4><a href="https://twitter.com/ibcdave"><span class="zocial-twitter"></span></a></h4>
+	 			<h4><a href="https://www.linkedin.com/pub/david-bernard/21/871/874"><span class="zocial-linkedin"></span></a></h4>
+				<h4><a href="https://plus.google.com/u/0/+DavidBernard8/about/p/pub"><span class="zocial-googleplus"></span></a></h4>
+	  		</div>
+  		</footer>
  	</div>
 </body>
 </html>

@@ -1,4 +1,4 @@
- {
+* {
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -8,12 +8,20 @@
 }
 
 *  {
-        font-family: 'Ubuntu', sans-serif;
-        font-weight: 300;  
-        -webkit-transition: width 0.5s; 
-        transition: width 0.5s;         
- }
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;  
+    -webkit-transition: width 0.5s; 
+    transition: width 0.5s;         
+}
  
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+    [Class*="zocial-"]:before {
+      display: inline-block;
+      font-family: 'zocial', sans-serif;
+      text-shadow: 3px 3px #aaa;
+      width: 2em;
+    }
+
 .right {
     text-align: right;
     padding-right: 40px;
@@ -38,8 +46,6 @@
     .container {
         display: -webkit-flex;
         display: flex;
-       -webkit-flex-flow: row wrap;
-       flex-flow: row wrap; 
     }
 }
 
@@ -73,11 +79,9 @@
 .hr {
     width: 100%;
     max-width: 1200px;
+    height: 10px;
+    color: black;
 }
-
-picture {
-    padding-top: 10px;
-    padding-bottom: 10px;
 
 }
 @media screen and (min-width: 800px) {
@@ -122,15 +126,7 @@ h2 {
     margin-bottom: 6px;
 }
 
-@import url(http://weloveiconfonts.com/api/?family=zocial);
-    [Class*="zocial-"]:before {
-      display: inline-block;
-      font-family: 'zocial', sans-serif;
-      text-shadow: 3px 3px #aaa;
-      width: 2em;
-      }
-
-   h4 {
+h4 {
     font-size: 2em;
     margin: 1em 0;
     margin-left: auto;
@@ -138,15 +134,15 @@ h2 {
     display: flex;
     flex-flow: row wrap;
     /*float: left;*/
-   }
+}
 
-   @media screen and (min-width:350px) and (max-width: 650px) {
+@media screen and (min-width:350px) and (max-width: 650px) {
     body { 
         font-size: 1.3em;
-        }
+    }
     .tinyfont { 
         font-size: 125%;
-        }
+    }
 }
 
 .tinyfont  {
@@ -157,9 +153,9 @@ h2 {
 }
 
 a:link {
-    color: #ff9933 ;
+    color: #ff9933;
 }
 
 a:visited {
-    color: #ff9933 ;
+    color: #ff9935;
     }
