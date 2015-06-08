@@ -1,13 +1,8 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    /*font-size: 100%;*/
-    /*font: inherit;*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
     vertical-align: baseline;
-}
-
-*  {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;  
     -webkit-transition: width 0.5s; 
@@ -26,27 +21,23 @@
     text-align: right;
     padding-right: 40px;
 }
-.padtop {
+
+.pad-top {
     padding-top: 10px;
 }
-.padleft {
+
+.pad-left {
     padding-left: 40px;
 }
+
 .grid {
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 .container {
     width: 100%;
-    max-width: 1200px;
-}
-
-@media screen and (min-width: 800px) {
-    .container {
-        display: -webkit-flex;
-        display: flex;
-    }
+    max-width: 1000px;
 }
 
 .row {
@@ -58,11 +49,10 @@
     width: 25%;
 }
 
-.col-4a, .col-4b, .col-4c {
+.col-4 {
     width: 100%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto;
 }
 
 .col-6 {
@@ -72,83 +62,64 @@
 .col-12 {
     width: 100%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .hr {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     height: 10px;
     color: black;
 }
 
-}
 @media screen and (min-width: 800px) {
-    .col-4a {
+    .container {
+        display: -webkit-flex;
+        display: flex;
+    }
+    .col-4 {
         width: 33.3%;
-    }
-    .col-4b {
-        width: 33.3%;
-    }
-    .col-4c {
-        width: 33.3%;
-    }
-    .col-6a {
-        width: 50%;
-    }
-    .col-6b {
-        width: 50%;
     }
 }
-
 
 h1 {
     color: #cc7a29;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin: 6px auto;
     text-align: right;
     display: block;
 }
 
 h3 {
     color: #cc7a29;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin: 4px auto;
     text-align: center;
+    display: block;
 }
 
 h2 {
     font-size: 20px;
     padding-bottom: 2px;
     color: #cc7a29;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin: 6px auto;
 }
 
 h4 {
     font-size: 2em;
-    margin: 1em 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-flow: row wrap;
-    /*float: left;*/
+    margin: 1em auto;
 }
 
 @media screen and (min-width:350px) and (max-width: 650px) {
     body { 
         font-size: 1.3em;
     }
-    .tinyfont { 
+    .tiny-font { 
         font-size: 125%;
     }
 }
 
-.tinyfont  {
+.tiny-font  {
     font-size: 75%;
-    margin-top: 4px;
-    margin-bottom: 8px;
+    margin: 4px auto 8px;
     text-align: center;
 }
 
